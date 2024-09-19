@@ -1,0 +1,29 @@
+Q. EXPLAIN WHAT IS package.json ?  ('npm init' to create, -y to skip quesions )
+It is a very crucial file in js based development as it provides various information 
+about the project, it lists various dependencies that are required to run the 
+projects, custom scripts to automate tasks such as starting the server, 
+running tests, etc.
+
+- > package-lock.json - Locks exact versions of dependencies to ensure consistent 
+    installations across different environments. 
+
+Q. WHAT ARE DEPENDENCIES ?
+Dependencies in programming actually refers to external libraries, tools, or code 
+that project needs. For example, if we're building a web server using Node.js, 
+instead of writing a web server from scratch, we use Express (dependency). These
+dependencies with thier versions are listed to package.json so that other devs or 
+during production correct versions of those dependencies can be installed. 
+Dependencies can be updated too to add feature or fix bugs. 
+
+- > Dependency Tree - This term refers to a fact that dependencies can depend 
+    on other dependencies which creates dependency tree for example express might 
+    depend on other libraries or tools. 
+
+- > node_Modules - This the place or the folder where all dependencies are installed
+    and it is managed by package.json 
+
+- > Dependencies vs devDependencies - devDependencies needed only for development 
+   (like testing or build tools) whereas dependencies for production. 
+
+
+Q. EXPLAIN THE DIFFERENCE BETWEEN COMMON JS MODULES AND ES6 MODULES ? 
