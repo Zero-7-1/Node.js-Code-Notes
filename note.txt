@@ -27,3 +27,10 @@ Dependencies can be updated too to add feature or fix bugs.
 
 
 Q. EXPLAIN THE DIFFERENCE BETWEEN COMMON JS MODULES AND ES6 MODULES ? 
+JS Comes under ECMAScript Specifications and CommonJS and ES6 Modules are two 
+different module systems used in JavaScript where ES6 is the latest modern
+specifications recommeded by ECMAScript.
+For example, 
+CommonJS Uses require() to import modules and module.exports to export them
+But in ES6 Uses import and export keywords. Its always recommeded to adhere to 
+latest ES synatax and updates as a JS developer. 
